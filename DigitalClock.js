@@ -13,6 +13,10 @@ function showTime(){
         h = h - 12;
         session = "PM";
     }
+    /**
+     *ternary operator (?)
+     
+     */
     
     h = (h < 10) ? "0" + h : h;
     m = (m < 10) ? "0" + m : m;
